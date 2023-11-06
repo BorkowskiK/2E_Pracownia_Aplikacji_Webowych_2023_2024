@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bruttonetto2</title>
+</head>
+<body>
+    <script>
+
+var wybor = prompt("Wybierz opcję:\n1. Cena netto  ➝ brutto\n2. Cena brutto  ➝ netto");
+
+var cenaNetto, cenaBrutto, stawkaPodatku;
+
+if (wybor === "1") {
+    cenaNetto = parsefloat(prompt("Podaj stawkę podatku (w procentach):"));
+
+    stawkaPodatku = parseFloat(prompt("Podaj stawkę podatku (w procentach):"));
+
+    cenaBrutto = cenaNetto * (1 + (stawkaPodatku / 100));
+} else if (wybor === "2") {
+    cenaBrutto = parseFloat(prompt("Podaj cenę brutto"));
+
+    stawkaPodatku = parseFloat(prompt("Podaj stawkę podatku (w procentach):"));
+
+    cenaNetto = cenaBrutto / (1 + (stawkaPodatku / 100));
+}
+alert(wybor === "1" ? "Cena brutto: " + cenaBrutto : "Cena netto: " + cenaNetto);
+
+    </script>  
+</body>
+</html>

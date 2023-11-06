@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopnie</title>
+</head>
+<body>
+    <script>
+        const wybierzZMenu = prompt("Wybierz opcje z menu: 1.Zmiana z stopni Celsjusza na stopnie Fahrenheita 2.Zmiana z stopni Fahrenheita na stopnie Celsjusza")
+
+        if (wybierzZMenu == 1)
+        {
+            let stopnieCelsjusza = prompt("Podaj temperature w stopniach Celsjusza: ")
+            let zmianaNaStopnieFahrenheita = (stopnieCelsjusza * 1.8) + 32;
+            document.write("<h1> Temperatura w stopniach Fahrenheita wynosi: <h1>" + zmianaNaStopnieFahrenheita + "°F")
+        }
+        else if (wybierzZMenu == 2)
+        {
+            let stopnieFahrenheita = prompt("Podaj temperature w stopniach Fahrenheita: ")
+            let zmianaNaStopnieCelsjusza = (stopnieFahrenheita - 32) * 5/9;
+            document.write("<h1> Temperatura w stopniach Celsujsza wynosi: <h1>" + zmianaNaStopnieCelsjusza + "°C");
+        }
+        else {
+            alert("Nie można tak zrobić")
+        }
+
+
+
+
+</script>
+</body>
+</html>

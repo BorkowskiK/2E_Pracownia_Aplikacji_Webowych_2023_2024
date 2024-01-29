@@ -1,0 +1,11 @@
+TEST
+1.a
+2.c
+3.b
+4.d
+5.c
+
+
+For-Kiedy blok instrukcji ma na wykonywany określoną ilość razy
+While-wykonujemy dopóki warunek logiczny jest prawdziy
+Do While-Pętla wykorzystywana raz przed sprawdzeniem warunku logicznego

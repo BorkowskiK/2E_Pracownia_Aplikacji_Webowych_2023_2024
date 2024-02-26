@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 6</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var numbersArray = [];
+
+            for (var i = 100; i < 110; i++) {
+                numbersArray.push(i);
+            }
+
+            var sum = 0;
+            for (var j = 0; j < numbersArray.length; j++) {
+                sum += numbersArray[j];
+            }
+
+            var average = sum / numbersArray.length;
+
+            var resultContent = "<p>Suma: " + sum + "</p>";
+            resultContent += "<p>Średnia: " + average + "</p>";
+
+            document.getElementById("output").innerHTML = resultContent;
+        });
+    </script>
+</head>
+<body>
+    <h1>Zadanie 6</h1>
+    <div id="output"></div>
+</body>
+</html>

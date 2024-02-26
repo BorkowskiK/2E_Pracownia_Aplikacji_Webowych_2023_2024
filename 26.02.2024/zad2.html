@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Zadanie 2</h1>
+    <div id="output"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded" , function() {
+            var numberArray = [];
+            for (var i = 10; i < 20; i++) {
+                numberArray.push(i);
+            }
+
+            var tableContent = "<ul>";
+                for(var j = 0; j < numberArray.length; j++) {
+                    tableContent += "<li>" + numberArray[j] + "</li>";
+                    {
+                        tableContent += "</u>";
+
+                        document.getElementById("output").innerHTML = tableContent;
+                    }
+                }})
+    </script>
+</body>
+</html>

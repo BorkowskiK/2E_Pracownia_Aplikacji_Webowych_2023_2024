@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Zadanie 3</h1>
+    <div id="output"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded" , function() {
+            var nameArray = "kwasniewski".split('').reverse();
+            
+                 var nameContent = "<ul>";
+                for(var i = 0; i < nameArray.length; i++) {
+                    nameContent += "<li>" + nameArray[i] + "</li>";
+                }
+                nameContent += "</ul>";
+
+                        document.getElementById("output").innerHTML = nameContent;
+                    
+                });
+    </script>
+</body>
+</html>

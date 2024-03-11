@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodawanie elementow do tablicy</title>
+    <script>
+        const tab = ["Marcin", "Ania", "Agnieszka"];
+        tab.push("Piotrek");
+        console.log(tab); //[Marcin, Ania, Agnieszka, Piotrek]
+
+        tab.push("Y", "Z");
+        console.log(tab); //[Marcin, Ania, Agnieszka, Piotrek, Y, Z]
+
+        const tab1 = ["Marcin", "Ania", "Agnieszka"];
+
+        tab[3] = "Piotrek";
+        //lub
+        tab[tab.length] = "Piotrek";
+
+        console.log(tab); //[Marcin, Ania, Agnieszka, Piotrek]
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,16 @@
+TEST
+1.B 
+2.D 
+3.D
+4.A
+5.D
+
+ZAD1
+1.żeby wyświetlić tekst po załadowaniu strony.
+2.żeby wyświetlićkomunitak po wysłaniu np. formularza 
+3.żeby zmnienić coś po najechaniu myszką np. text, color.
+4.żeby zmnienić coś po zjechaniu myszką np. text, color.
+
+ZAD2
+1.onMouseOver = wykona czynnośc po najechaniu myszką
+1.onMouseMove = wykona czynnośc po zjechaniu myszką 

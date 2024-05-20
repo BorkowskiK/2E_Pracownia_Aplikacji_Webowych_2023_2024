@@ -1,0 +1,30 @@
+header, footer {    
+    background-color: rgb(100,61,49);
+    color: white;
+    text-align: center;
+    height: 80px;
+    padding: 5px;
+}
+
+.footer {
+    float: left;
+    width: 99.5%;
+}
+
+.main, .table {
+    background-color: rgb(146,184,112);
+    width: 50%;
+    height: 450px;
+    float: left;
+}
+
+table, td {
+    border: 2px dotted green;
+    margin: 30px;
+    padding: 20px;
+}
+
+h1 {
+    letter-spacing: 20px;
+    font-size: 250%;
+}

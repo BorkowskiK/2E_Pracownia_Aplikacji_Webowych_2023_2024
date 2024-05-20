@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strefa zamówień</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Strefa zamówień</h1>
+</header>
+
+<div class="main">
+    <form>
+        <p>Numer Kształtu</p></br>
+        <input id="dane" type="text">
+        <p>skomponuj swój kolor, podaj RGB:</p>
+        R: <input type="text">
+        G: <input type="text">
+        B: <input type="text">
+        </br>
+        <button onclick="ksztalt()" type="submit" id="przycisk">Zamów</button>
+        <p>Wybrany kształt</p>
+        <p id="demo"></p>
+        <button>Kolor</button>
+    </form>
+</div>
+
+<div class="table">
+    <h2>Nasza oferta</h2>
+    <table>
+        <tr>
+            <td>Kształty</td>
+            <td rowspan="2">Możesz zamówić dowolny kształt cukierka/td>   
+        </tr>
+        <tr>
+            <td>
+                <ol>
+                    <li>cytryna</li>
+                    <li>lisc</li>
+                    <li>banan</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+</div>
+<footer class="footer">
+    <p>Autor strony: Krzysztof Borkowski</p>
+</footer>
+
+</body>
+</html>

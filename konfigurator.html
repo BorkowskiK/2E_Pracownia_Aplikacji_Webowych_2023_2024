@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style w JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="lewy">
+        <h1>Konfigurator stylu</h1>
+        <p>Podaj kolor tla</p></br>
+        <form>
+            <input type="button" class="b1" onclick="change1()" value="Indigo">
+            <input type="button" class="b2" onclick="change2()" value="SteelBlue">
+            <input type="button" class="b3" onclick="change3()" value="Olive">
+
+        </br>
+
+            <p>Podaj kolor czcionki</p>
+            <select>
+                <option>White</option>
+                <option>Tan</option>
+                <option>Bisque</option>
+                <option>Plum</option>
+            </select>
+
+        </br>
+
+            <p>Podaj rozmiar czcionki w procentach, np. 200%</p>
+            <input type="text" placeholder="100%">
+
+        </br>
+
+            <p>Czy rysunek ma mieć ramkę?</p>
+            <label>
+                <input type="checkbox" name="ramka" value="true" checked> Rysuj ramke
+            </label>
+
+        </br>
+
+            <p>Jaki jest typ punktora listy?</p>
+            <input type="radio"> dysk </br>
+            <input type="radio"> kwadrat </br>
+            <input type="radio"> okrąg </br>
+        </form>
+    </div>
+
+    <div class="prawy" id="prawy">
+        
+         <div class="image"><img src="gibraltar.jpg" alt="półwysep Gibraltar"></div>
+
+        <div class="list">
+         <ul>
+           <li>element 1</li>
+           <li>element 2</li>
+           <li>element 3</li>
+         </ul>
+    </div>
+    </br>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+        </p>
+    </div>
+
+    <footer>
+        <p>Autor: Krzysztof Borkowski</p>
+    </footer>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>

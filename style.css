@@ -1,0 +1,44 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.lewy {
+    background-color: maroon;
+    color: white;
+    height: 600px;
+    width: 30%;
+    float: left;
+}
+
+.prawy {
+    background-color: maroon;
+    color: white;
+    height: 600px;
+    width: 70%;
+    float: right;
+}
+
+footer {
+    background-color: dimgray;
+    color: white;
+}
+
+.list {
+    position: relative; bottom: 350px; left: 400px;
+}
+
+.image {
+    width: 100px;
+}
+
+.b1 {
+    background-color: indigo;
+}
+
+.b2 {
+    background-color: steelblue;
+}
+
+.b3 {
+    background-color: olive;
+}
